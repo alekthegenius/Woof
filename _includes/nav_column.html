@@ -1,6 +1,15 @@
-<div class="back-button">
-    <a href="/"><img alt="Woof" style="height: 55px; width: 55px;" src="https://alekthegenius.github.io/Woof/assets/icon_dark.png" width="75" height="75"></a>
+{% if site.github-pages %}
+  <div class="back-button">
+    <a href="/Woof"><img alt="Woof" style="height: 55px; width: 55px;" src="https://alekthegenius.github.io/Woof/assets/icon_dark.png" width="75" height="75"></a>
+    </div>
+    <div class="button">
+      <a href="/Woof" ><i class="fa-solid fa-gear" style="font-size: 20px; margin-top: 25px;"></i><span class="navText">  Settings</span></a>
   </div>
-  <div class="button">
-    <a href="/" ><i class="fa-solid fa-gear" style="font-size: 20px; margin-top: 25px;"></i><span class="navText">  Settings</span></a>
-</div>
+{% else %}
+  <div class="back-button">
+    <a href="/"><img alt="Woof" style="height: 55px; width: 55px;" src="/assets/icon_dark.png" width="75" height="75"></a>
+    </div>
+    <div class="button">
+      <a href="/" ><i class="fa-solid fa-gear" style="font-size: 20px; margin-top: 25px;"></i><span class="navText">  Settings</span></a>
+  </div>  
+{% endif %}
