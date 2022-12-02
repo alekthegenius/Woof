@@ -1,0 +1,428 @@
+html {
+  font-size: $base-font-size;
+}
+
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+/**
+ * Basic styling
+ */
+body {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+     -moz-font-feature-settings: "kern" 1;
+       -o-font-feature-settings: "kern" 1;
+          font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow-wrap: break-word;
+}
+
+
+
+// Column Styling
+.column {
+  float: left;
+  height: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+// Nav Column Start
+.nav_column {
+  width: 15%;
+  margin-left: 15%;
+  margin-right: 10px;
+  margin-top: 5px;
+  position: sticky;
+  top: 5px;
+}
+
+.nav_column i{
+  color: #E3E6E7;
+}
+.button a:visited, a:after{
+  color: #E3E6E7;
+}
+
+.button a{
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 15px 15px 15px 15px;
+}
+
+.button a:hover{
+  background-color: rgba($color: #ffffff, $alpha: 0.125);
+  text-decoration: none;
+}
+
+.back-button a:visited, a:after{
+  color: #E3E6E7;
+}
+
+.back-button a{
+  text-decoration: none;
+  padding-top: 15px;
+  padding-right: 5px;
+  padding-bottom: 25px;
+  padding-left: 2.5px;
+  border-radius: 50px;
+}
+
+
+.back-button a:hover{
+  background-color: rgba($color: #ffffff, $alpha: 0.05);
+  text-decoration: none;
+}
+
+.navText {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+
+
+// Nav Column Ended
+
+// Content Column Begins
+.content {
+  width: 550px;
+  border-left: 1px rgb(47, 51, 54);
+  border-right: 1px rgb(47, 51, 54);
+  border-top: 0px;
+  border-bottom: 0px;
+  border-style: solid;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+// Content Column Ends
+
+// About Me Begins
+.about-me {
+  width: 200px;
+  margin-left: 15px;
+  margin-top: 15px;
+  border-left: 1px rgb(47, 51, 54);
+  border-right: 1px rgb(47, 51, 54);
+  border-top: 1px rgb(47, 51, 54);
+  border-bottom: 1px rgb(47, 51, 54);
+  border-style: solid;
+  border-radius: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  position: sticky;
+  top: 15px;
+  // background-color: rgb(22, 24, 28);
+}
+// About Me Ends
+
+// width > 768px
+@media screen and (max-width: 1279px){ 
+  .nav_column {
+    width: 75px;
+    margin-left: 0px;
+    margin-right: 5px;
+    padding-left: 5px;
+  }
+  .content {
+    width: 55%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .navText {
+    display: none;
+  }
+  .about-me{
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 1000px){ 
+  .about-me{
+    display: none;
+  }
+  .content {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 500px){ 
+  .nav_column{
+    display: none;
+  }
+  .content {
+    width: 90%;
+    border: none;
+  }
+}
+@media screen and (max-width: 750px){ 
+  .content {
+    border-right: none;
+  }
+}
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+  margin-bottom: $spacing-unit / 2;
+}
+
+hr {
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
+}
+
+/**
+ * `main` element
+ */
+main {
+  display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+}
+
+
+
+/**
+ * Images
+ */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+  display: block;
+}
+
+figcaption {
+  font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+  margin-left: $spacing-unit;
+}
+
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $base-font-weight;
+}
+
+
+
+/**
+ * Links
+ */
+a {
+  color: $link-base-color;
+  text-decoration: none;
+
+  &:visited {
+    color: $link-visited-color;
+  }
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: underline;
+  }
+
+  .social-media-list &:hover {
+    text-decoration: none;
+
+    .username {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+  color: $brand-color;
+  border-left: 4px solid $border-color-01;
+  padding-left: $spacing-unit / 2;
+  @include relative-font-size(1.125);
+  font-style: italic;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  i, em {
+    font-style: normal;
+  }
+}
+
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+  font-family: $code-font-family;
+  font-size: 0.9375em;
+  border: 1px solid $border-color-01;
+  border-radius: 3px;
+  background-color: $code-background-color;
+}
+
+code {
+  padding: 1px 5px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
+
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.highlight {
+  border-radius: 3px;
+  background: $code-background-color;
+  @extend %vertical-rhythm;
+
+  .highlighter-rouge & {
+    background: $code-background-color;
+  }
+}
+
+
+/**
+ * Wrapper
+ */
+.wrapper {
+  max-width: calc(#{$content-width} - (#{$spacing-unit}));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+  @extend %clearfix;
+
+  @media screen and (min-width: $on-large) {
+    max-width: 100%;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+  }
+}
+
+
+
+/**
+ * Clearfix
+ */
+%clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/**
+ * Icons
+ */
+
+.orange {
+  color: #f66a0a;
+}
+
+.grey {
+  color: #828282;
+}
+
+.svg-icon {
+  width: 1.25em;
+  height: 1.25em;
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+
+/**
+ * Tables
+ */
+table {
+  margin-bottom: $spacing-unit;
+  width: 100%;
+  text-align: $table-text-align;
+  color: $table-text-color;
+  border-collapse: collapse;
+  border: 1px solid $table-border-color;
+  tr {
+    &:nth-child(even) {
+      background-color: $table-zebra-color;
+    }
+  }
+  th, td {
+    padding: ($spacing-unit / 3) ($spacing-unit / 2);
+  }
+  th {
+    background-color: $table-header-bg-color;
+    border: 1px solid $table-header-border;
+  }
+  td {
+    border: 1px solid $table-border-color;
+  }
+
+  @include media-query($on-laptop) {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+            -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+}

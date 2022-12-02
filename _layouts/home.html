@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {{ content }}
+
+
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+  <div class="row">
+    <div class="column nav_column">
+      {%- include nav_column.html -%}
+    </div>
+    <div class="column bordered content">
+      {%- include content-header.html -%}
+      {%- include content_column.html -%}
+    </div>
+    <div class="column about-me">
+      <span>Some place holder text, nothing here yet, just stick around and wait...</span>
+    </div>
+  </div>
+  
+
+</div>
