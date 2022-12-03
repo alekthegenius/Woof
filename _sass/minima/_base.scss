@@ -90,6 +90,9 @@ body {
   border-radius: 50px;
 }
 
+.back-button {
+  border-radius: 50%;
+}
 
 .back-button a:hover{
   background-color: rgba($color: #ffffff, $alpha: 0.05);
@@ -159,6 +162,9 @@ body {
   }
   .button {
     margin-left: 3px;
+  }
+  .button a{
+    border-radius: 50%;
   }
   .about-me{
     width: 250px;

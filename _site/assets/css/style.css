@@ -143,6 +143,8 @@ body { font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe U
 
 .back-button a { text-decoration: none; padding-top: 15px; padding-right: 5px; padding-bottom: 25px; padding-left: 2.5px; border-radius: 50px; }
 
+.back-button { border-radius: 50%; }
+
 .back-button a:hover { background-color: rgba(255, 255, 255, 0.05); text-decoration: none; }
 
 .navText { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px; }
@@ -151,7 +153,7 @@ body { font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe U
 
 .about-me { width: 200px; margin-left: 15px; margin-top: 15px; border-left: 1px #2f3336; border-right: 1px #2f3336; border-top: 1px #2f3336; border-bottom: 1px #2f3336; border-style: solid; border-radius: 15px; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; position: sticky; top: 15px; }
 
-@media screen and (max-width: 1279px) { .nav_column { width: 75px; margin-left: 0px; margin-right: 5px; padding-left: 5px; } .content { width: 55%; margin-right: 0px; margin-left: 0px; } .navText { display: none; } .button { margin-left: 3px; } .about-me { width: 250px; } }
+@media screen and (max-width: 1279px) { .nav_column { width: 75px; margin-left: 0px; margin-right: 5px; padding-left: 5px; } .content { width: 55%; margin-right: 0px; margin-left: 0px; } .navText { display: none; } .button { margin-left: 3px; } .button a { border-radius: 50%; } .about-me { width: 250px; } }
 
 @media screen and (max-width: 1000px) { .about-me { display: none; } .content { width: 70%; } }
 
