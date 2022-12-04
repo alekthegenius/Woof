@@ -137,7 +137,7 @@ body { font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe U
 
 .button a { text-decoration: none; border-radius: 20px; padding: 15px 15px 15px 15px; }
 
-.button a:hover { background-color: rgba(255, 255, 255, 0.125); text-decoration: none; }
+.button a:hover { background-color: rgba(255, 255, 255, 0.1); text-decoration: none; }
 
 .back-button a:visited, a:after { color: #E3E6E7; }
 
