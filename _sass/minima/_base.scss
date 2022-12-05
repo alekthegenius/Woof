@@ -103,9 +103,6 @@ body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
 }
-
-
-
 // Nav Column Ended
 
 // Content Column Begins
@@ -120,6 +117,10 @@ body {
   padding-right: 15px;
   padding-bottom: 15px;
   padding-left: 15px;
+}
+
+.content-header {
+  padding-left: 0px;
 }
 // Content Column Ends
 
