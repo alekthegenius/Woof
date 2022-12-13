@@ -65,6 +65,12 @@ body {
   .button a:visited, a:after{
     color: #E3E6E7;
   }
+
+  .button a{
+    text-decoration: none;
+    color: #E3E6E7;
+  }
+
   img.nav_icon{
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
@@ -127,8 +133,6 @@ body {
   border-radius: 50%;
 }
 
-
-
 .navText {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
@@ -136,6 +140,21 @@ body {
 // Nav Column Ended
 
 // Content Column Begins
+
+.content-header img {
+  border-radius: 15px;
+}
+
+
+.content-header img.profile-image {
+  width: 25%;
+  max-width: 200px;
+  border-radius: 50%;
+  margin-left: 25px;
+  margin-top: -12.5%;
+}
+
+
 @media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference) {
   .content {
     width: 550px;
