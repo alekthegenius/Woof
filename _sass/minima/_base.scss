@@ -58,12 +58,53 @@ body {
   position: sticky;
   top: 5px;
 }
-
-.nav_column i{
-  color: #E3E6E7;
+@media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference) {
+  .nav_column i{
+    color: #E3E6E7;
+  }
+  .button a:visited, a:after{
+    color: #E3E6E7;
+  }
+  img.nav_icon{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+  }
+  .back-button a:visited, a:after{
+    color: #E3E6E7;
+  }
+  .button a:hover{
+    background-color: rgba($color: #ffffff, $alpha: 0.1);
+    text-decoration: none;
+  }
+  .back-button a:hover{
+    background-color: rgba($color: #ffffff, $alpha: 0.05);
+    text-decoration: none;
+  }
 }
-.button a:visited, a:after{
-  color: #E3E6E7;
+
+@media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
+  .nav_column i{
+    color: #000000;
+  }
+  .button a:visited, a:after{
+    color: #000000;
+  }
+  img.nav_icon{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+  }
+  .back-button a:visited, a:after{
+    color: #000000;
+  }
+
+  .button a:hover{
+    background-color: rgba($color: #000000, $alpha: 0.1);
+    text-decoration: none;
+  }
+  .back-button a:hover{
+    background-color: rgba($color: #000000, $alpha: 0.05);
+    text-decoration: none;
+  }
 }
 
 .button a{
@@ -72,14 +113,6 @@ body {
   padding: 15px 15px 15px 15px;
 }
 
-.button a:hover{
-  background-color: rgba($color: #ffffff, $alpha: 0.1);
-  text-decoration: none;
-}
-
-.back-button a:visited, a:after{
-  color: #E3E6E7;
-}
 
 .back-button a{
   text-decoration: none;
@@ -94,10 +127,7 @@ body {
   border-radius: 50%;
 }
 
-.back-button a:hover{
-  background-color: rgba($color: #ffffff, $alpha: 0.05);
-  text-decoration: none;
-}
+
 
 .navText {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -106,17 +136,33 @@ body {
 // Nav Column Ended
 
 // Content Column Begins
-.content {
-  width: 550px;
-  border-left: 1px rgb(47, 51, 54);
-  border-right: 1px rgb(47, 51, 54);
-  border-top: 0px;
-  border-bottom: 0px;
-  border-style: solid;
-  padding-top: 15px;
-  padding-right: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
+@media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference) {
+  .content {
+    width: 550px;
+    border-left: 1px rgb(47, 51, 54);
+    border-right: 1px rgb(47, 51, 54);
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .content {
+    width: 550px;
+    border-left: 1px #eff3f4;
+    border-right: 1px #eff3f4;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+  }
 }
 
 .content-header {
@@ -125,23 +171,45 @@ body {
 // Content Column Ends
 
 // About Me Begins
-.about-me {
-  width: 200px;
-  margin-left: 15px;
-  margin-top: 15px;
-  border-left: 1px rgb(47, 51, 54);
-  border-right: 1px rgb(47, 51, 54);
-  border-top: 1px rgb(47, 51, 54);
-  border-bottom: 1px rgb(47, 51, 54);
-  border-style: solid;
-  border-radius: 15px;
-  padding-top: 15px;
-  padding-right: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  position: sticky;
-  top: 15px;
-  // background-color: rgb(22, 24, 28);
+@media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference) {
+  .about-me {
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-left: 1px rgb(47, 51, 54);
+    border-right: 1px rgb(47, 51, 54);
+    border-top: 1px rgb(47, 51, 54);
+    border-bottom: 1px rgb(47, 51, 54);
+    border-style: solid;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    position: sticky;
+    top: 15px;
+    // background-color: rgb(22, 24, 28);
+  }
+}
+@media (prefers-color-scheme: light) {
+  .about-me {
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-left: 1px #eff3f4;
+    border-right: 1px #eff3f4;
+    border-top: 1px #eff3f4;
+    border-bottom: 1px #eff3f4;
+    border-style: solid;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    position: sticky;
+    top: 15px;
+    // background-color: rgb(22, 24, 28);
+  }
 }
 // About Me Ends
 
