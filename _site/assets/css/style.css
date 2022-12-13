@@ -153,6 +153,8 @@ body { font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe U
 
 @media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference) { .content { width: 550px; border-left: 1px #2f3336; border-right: 1px #2f3336; border-top: 0px; border-bottom: 0px; border-style: solid; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; } }
 
+.content-header button { margin-left: 50%; }
+
 @media (prefers-color-scheme: light) { .content { width: 550px; border-left: 1px #eff3f4; border-right: 1px #eff3f4; border-top: 0px; border-bottom: 0px; border-style: solid; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; } }
 
 .content-header { padding-left: 0px; }

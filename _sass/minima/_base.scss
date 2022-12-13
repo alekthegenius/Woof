@@ -168,7 +168,13 @@ body {
     padding-bottom: 15px;
     padding-left: 15px;
   }
+
 }
+
+.content-header button {
+  margin-left: 50%;
+}
+
 @media (prefers-color-scheme: light) {
   .content {
     width: 550px;
@@ -182,6 +188,7 @@ body {
     padding-bottom: 15px;
     padding-left: 15px;
   }
+
 }
 
 .content-header {
