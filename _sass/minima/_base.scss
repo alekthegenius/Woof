@@ -146,6 +146,13 @@ body {
   border-radius: 15px;
 }
 
+.content-header span.user-name {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 15pt;
+  display: inline-block
+}
+
 
 .content-header img.profile-image {
   width: 25%;
@@ -189,6 +196,9 @@ body {
   .content-header button span.follow_text {
     color: #000000;
   }
+  .content-header img.profile-image {
+    border: 5px solid black;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -215,6 +225,9 @@ body {
   }
   .content-header button span.follow_text {
     color: #ffffff;
+  }
+  .content-header img.profile-image {
+    border: 5px solid rgb(255, 255, 255);
   }
 }
 
