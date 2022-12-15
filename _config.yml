@@ -5,7 +5,7 @@ author:
 description: > # this means to ignore newlines until "show_excerpts:"
   Re-Making Twitter
 
-github-pages: false
+github-pages: true
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
