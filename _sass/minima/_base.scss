@@ -72,8 +72,8 @@ body {
   }
 
   img.nav_icon{
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
   }
   .back-button a:visited, a:after{
     color: #E3E6E7;
@@ -97,8 +97,8 @@ body {
     color: #000000;
   }
   img.nav_icon{
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);
+    filter: invert(0%);
+    -webkit-filter: invert(0%);
   }
   .back-button a:visited, a:after{
     color: #000000;
@@ -320,7 +320,7 @@ body {
     top: 15px;
     // background-color: rgb(22, 24, 28);
   }
-    .bark-user {
+  .bark-user {
       color: #000000;
   }
   .bark-excerpt {
