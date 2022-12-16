@@ -275,6 +275,12 @@ body {
     padding: 15px 15px 15px 15px;
     border-radius: 15px;
   }
+  .content-header a.user-link {
+    color: $dm-link-base-color;
+  }
+  .content-header a.user-link i.fa-solid {
+    color: white;
+  }
 }
 
 
@@ -282,6 +288,9 @@ body {
 .post-list a:hover{
   text-decoration: none;
 }
+
+
+
 
 .content-header span.user-at {
   color: rgb(100, 100, 100);
@@ -329,6 +338,12 @@ body {
     margin-right: 15px;
     padding: 15px 15px 15px 15px;
     border-radius: 15px;
+  }
+  .content-header a.user-link {
+    color: $lm-link-base-color;
+  }
+  .content-header a.user-link i.fa-solid {
+    color: black;
   }
 }
 // About Me Ends
