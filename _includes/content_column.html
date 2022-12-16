@@ -8,7 +8,9 @@
   <a href="{{ post.url | relative_url }}" class="bark-link">
   <li class="bark-content">
     <span class="post-meta">{{ post.date | date: date_format }}</span>
-      {{ post.excerpt }}
+      <div class="bark-excerpt">
+        {{ post.excerpt }}
+      </div>
   </li>
   {%- endfor -%}
 </a>
