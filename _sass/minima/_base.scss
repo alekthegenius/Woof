@@ -256,6 +256,9 @@ body {
     top: 15px;
     // background-color: rgb(22, 24, 28);
   }
+  .bark-user {
+    color: #ffffff;
+  }
   .bark-excerpt {
     color: #ffffff;
     text-decoration: none;
@@ -274,19 +277,19 @@ body {
   }
 }
 
+
+
 .post-list a:hover{
   text-decoration: none;
 }
-
-
 
 .content-header span.user-at {
   color: rgb(100, 100, 100);
 }
 
-
-
-
+.bark-user {
+  font-weight: 700;
+}
 
 @media (prefers-color-scheme: light) {
   .about-me {
@@ -307,10 +310,14 @@ body {
     top: 15px;
     // background-color: rgb(22, 24, 28);
   }
+    .bark-user {
+      color: #ffffff;
+  }
   .bark-excerpt {
     color: #000000;
     text-decoration: none;
   }
+
   .bark-content:hover {
     background-color: rgba($color: #000000, $alpha: 0.025);
   }

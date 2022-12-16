@@ -7,10 +7,11 @@
   {%- for post in posts -%}
   <a href="{{ post.url | relative_url }}" class="bark-link">
   <li class="bark-content">
+    <span class="bark-user">{{ site.author.name }}</span>
     <span class="post-meta">{{ post.date | date: date_format }}</span>
-      <div class="bark-excerpt">
-        {{ post.excerpt }}
-      </div>
+    <div class="bark-excerpt">
+      {{ post.excerpt }}
+    </div>
   </li>
   {%- endfor -%}
 </a>
