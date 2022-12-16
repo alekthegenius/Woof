@@ -153,7 +153,7 @@ body { font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe U
 
 .content-header img.profile-image { width: 25%; max-width: 200px; border-radius: 50%; margin-left: 25px; margin-top: -12.5%; }
 
-.content-header button { margin-left: 54%; margin-top: 15px; padding-top: 7.5px; padding-right: 15px; padding-bottom: 7.5px; padding-left: 15px; border-radius: 15px; }
+.content-header button { margin-left: 52%; margin-top: 15px; padding-top: 7.5px; padding-right: 15px; padding-bottom: 7.5px; padding-left: 15px; border-radius: 15px; }
 
 @media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference) { .content { width: 550px; border-left: 1px #2f3336; border-right: 1px #2f3336; border-top: 0px; border-bottom: 0px; border-style: solid; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; } .content-header button:hover { transition-duration: 0.5s; background-color: #aecfd2; border: #aecfd2; } .content-header button { border: #ffffff; background-color: #ffffff; } .content-header button span.follow_text { color: #000000; } .content-header img.profile-image { border: 5px solid black; } }
 
@@ -161,9 +161,11 @@ body { font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe U
 
 .content-header { padding-left: 0px; }
 
-@media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference) { .about-me { width: 200px; margin-left: 15px; margin-top: 15px; border-left: 1px #2f3336; border-right: 1px #2f3336; border-top: 1px #2f3336; border-bottom: 1px #2f3336; border-style: solid; border-radius: 15px; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; position: sticky; top: 15px; } .bark-user { color: #ffffff; } .bark-excerpt { color: #ffffff; text-decoration: none; } .bark-content:hover { background-color: rgba(255, 255, 255, 0.025); } .bark-content { border-top: 1px solid #2f3336; border-bottom: 1px solid #2f3336; margin-top: 25px; margin-left: 0px; margin-right: 15px; padding: 15px 15px 15px 15px; border-radius: 15px; } .content-header a.user-link { color: #79b8ff; } .content-header a.user-link i.fa-solid { color: white; } }
+@media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference) { .about-me { width: 200px; margin-left: 15px; margin-top: 15px; border-left: 1px #2f3336; border-right: 1px #2f3336; border-top: 1px #2f3336; border-bottom: 1px #2f3336; border-style: solid; border-radius: 15px; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; position: sticky; top: 15px; } .bark-user { color: #ffffff; } .bark-excerpt { color: #ffffff; text-decoration: none; } .bark-content:hover { background-color: rgba(255, 255, 255, 0.025); } .bark-content { border-top: 1px solid #2f3336; border-bottom: 1px solid #2f3336; margin-top: 25px; margin-left: 15px; margin-right: 15px; padding: 15px 15px 15px 15px; border-radius: 15px; } .content-header a.user-link { color: #79b8ff; } .content-header a.user-link i.fa-solid { color: white; } }
 
 .post-list a:hover { text-decoration: none; }
+
+.post-list { margin-left: 0px; }
 
 .content-header span.user-at { color: #646464; }
 

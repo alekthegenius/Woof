@@ -146,6 +146,8 @@ body {
   border-radius: 15px;
 }
 
+
+
 .content-header span.user-name {
   margin-top: 15px;
   font-weight: bold;
@@ -162,7 +164,7 @@ body {
   margin-top: -12.5%;
 }
 .content-header button {
-  margin-left: 54%;
+  margin-left: 52%;
   margin-top: 15px;
   padding-top: 7.5px;
   padding-right: 15px;
@@ -270,7 +272,7 @@ body {
     border-top: 1px solid rgb(47, 51, 54);
     border-bottom: 1px solid rgb(47, 51, 54);
     margin-top: 25px;
-    margin-left: 0px;
+    margin-left: 15px;
     margin-right: 15px;
     padding: 15px 15px 15px 15px;
     border-radius: 15px;
@@ -283,14 +285,13 @@ body {
   }
 }
 
-
-
 .post-list a:hover{
   text-decoration: none;
 }
 
-
-
+.post-list {
+  margin-left: 0px;
+}
 
 .content-header span.user-at {
   color: rgb(100, 100, 100);
