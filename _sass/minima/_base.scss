@@ -377,9 +377,6 @@ body {
   .content {
     width: 70%;
   }
-  .content-header button {
-    margin-left: 45%;
-  }
 }
 @media screen and (max-width: 500px){ 
   .nav_column{
@@ -388,6 +385,21 @@ body {
   .content {
     width: 90%;
     border: none;
+  }
+}
+@media screen and (max-width: 740px){ 
+  .content-header button {
+    margin-left: 45%;
+  }
+}
+@media screen and (max-width: 630px){ 
+  .content-header button {
+    margin-left: 40%;
+  }
+}
+@media screen and (max-width: 400px){ 
+  .content-header button {
+    margin-left: 30%;
   }
 }
 @media screen and (max-width: 750px){ 

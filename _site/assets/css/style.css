@@ -177,9 +177,15 @@ body { font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe U
 
 @media screen and (max-width: 1279px) { .nav_column { width: 75px; margin-left: 0px; margin-right: 5px; padding-left: 5px; } .content { width: 55%; margin-right: 0px; margin-left: 0px; } .navText { display: none; } .button { margin-left: 3px; } .button a { border-radius: 50%; } .about-me { width: 250px; } }
 
-@media screen and (max-width: 1000px) { .about-me { display: none; } .content { width: 70%; } .content-header button { margin-left: 45%; } }
+@media screen and (max-width: 1000px) { .about-me { display: none; } .content { width: 70%; } }
 
 @media screen and (max-width: 500px) { .nav_column { display: none; } .content { width: 90%; border: none; } }
+
+@media screen and (max-width: 740px) { .content-header button { margin-left: 45%; } }
+
+@media screen and (max-width: 630px) { .content-header button { margin-left: 40%; } }
+
+@media screen and (max-width: 400px) { .content-header button { margin-left: 30%; } }
 
 @media screen and (max-width: 750px) { .content { border-right: none; } }
 
