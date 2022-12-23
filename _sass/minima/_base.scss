@@ -29,6 +29,7 @@ body {
           font-feature-settings: "kern" 1;
   font-kerning: normal;
   display: flex;
+  flex-wrap: wrap;
   min-height: 100vh;
   flex-direction: column;
   overflow-wrap: break-word;
@@ -147,7 +148,9 @@ body {
   border-radius: 15px;
 }
 
-
+.content-header .details {
+  margin-left: 7.5px;
+}
 
 .content-header span.user-name {
   margin-top: 15px;
@@ -407,6 +410,8 @@ body {
     border-right: none;
   }
 }
+
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */

@@ -126,7 +126,7 @@ html { font-size: 16px; }
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
 /** Basic styling */
-body { font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif; color: var(--minima-text-color); background-color: var(--minima-background-color); -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; overflow-wrap: break-word; }
+body { font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif; color: var(--minima-text-color); background-color: var(--minima-background-color); -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; flex-wrap: wrap; min-height: 100vh; flex-direction: column; overflow-wrap: break-word; }
 
 .column { float: left; height: 100%; }
 
@@ -148,6 +148,8 @@ body { font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe U
 .navText { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px; }
 
 .content-header img { border-radius: 15px; }
+
+.content-header .details { margin-left: 7.5px; }
 
 .content-header span.user-name { margin-top: 15px; font-weight: bold; font-size: 15pt; display: inline-block; }
 
