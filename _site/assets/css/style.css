@@ -137,7 +137,9 @@ body { font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe U
 
 @media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference) { .nav_column i { color: #E3E6E7; } .button a:visited, a:after { color: #E3E6E7; } .button a { text-decoration: none; color: #E3E6E7; } img.nav_icon { filter: invert(100%); -webkit-filter: invert(100%); } .back-button a:visited, a:after { color: #E3E6E7; } .button a:hover { background-color: rgba(255, 255, 255, 0.1); text-decoration: none; } .back-button a:hover { background-color: rgba(255, 255, 255, 0.05); text-decoration: none; } }
 
-.nav-bar .nav-bar-title { margin-left: 450px; margin-top: -30px; }
+.nav-bar { padding-top: 15px; padding-bottom: 15px; position: sticky; top: 0px; backdrop-filter: blur(12px); }
+
+.nav-bar .nav-bar-title { margin-left: 25px; margin-top: -25px; }
 
 @media (prefers-color-scheme: light) { .nav_column i { color: #000000; } .button a:visited, a:after { color: #000000; } img.nav_icon { filter: invert(0%); -webkit-filter: invert(0%); } .back-button a:visited, a:after { color: #000000; } .button a:hover { background-color: rgba(0, 0, 0, 0.1); text-decoration: none; } .back-button a:hover { background-color: rgba(0, 0, 0, 0.05); text-decoration: none; } }
 
@@ -159,9 +161,9 @@ body { font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe U
 
 .content-header button { margin-left: 52%; margin-top: 15px; padding-top: 7.5px; padding-right: 15px; padding-bottom: 7.5px; padding-left: 15px; border-radius: 15px; }
 
-@media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference) { .content { width: 550px; border-left: 1px #2f3336; border-right: 1px #2f3336; border-top: 0px; border-bottom: 0px; border-style: solid; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; } .content-header button:hover { transition-duration: 0.5s; background-color: #aecfd2; border: #aecfd2; } .content-header button { border: #ffffff; background-color: #ffffff; } .content-header button span.follow_text { color: #000000; } .content-header img.profile-image { border: 5px solid black; } }
+@media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference) { .content { width: 550px; border-left: 1px #2f3336; border-right: 1px #2f3336; border-top: 0px; border-bottom: 0px; border-style: solid; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; } .nav-bar { background-color: rgba(0, 0, 0, 0.5); } .content-header button:hover { transition-duration: 0.5s; background-color: #aecfd2; border: #aecfd2; } .content-header button { border: #ffffff; background-color: #ffffff; } .content-header button span.follow_text { color: #000000; } .content-header img.profile-image { border: 5px solid black; } }
 
-@media (prefers-color-scheme: light) { .content { width: 550px; border-left: 1px #eff3f4; border-right: 1px #eff3f4; border-top: 0px; border-bottom: 0px; border-style: solid; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; } .content-header button:hover { transition-duration: 0.5s; background-color: #292D2F; border: #292D2F; } .content-header button { border: #0e0e0e; background-color: #0e0e0e; } .content-header button span.follow_text { color: #ffffff; } .content-header img.profile-image { border: 5px solid white; } }
+@media (prefers-color-scheme: light) { .content { width: 550px; border-left: 1px #eff3f4; border-right: 1px #eff3f4; border-top: 0px; border-bottom: 0px; border-style: solid; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; } .nav-bar { background-color: rgba(255, 255, 255, 0.5); } .content-header button:hover { transition-duration: 0.5s; background-color: #292D2F; border: #292D2F; } .content-header button { border: #0e0e0e; background-color: #0e0e0e; } .content-header button span.follow_text { color: #ffffff; } .content-header img.profile-image { border: 5px solid white; } }
 
 .content-header { padding-left: 0px; }
 
