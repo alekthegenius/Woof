@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Side Effects of Energy Drinks"
-categories: death
+categories: sideeffects
 ---
 
 The following is from a Firefighter wanting to arouse awareness of the side effects of energy drinks:
