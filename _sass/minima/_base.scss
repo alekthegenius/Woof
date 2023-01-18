@@ -1,5 +1,6 @@
 html {
   font-size: $base-font-size;
+  overscroll-behavior-y: none;
 }
 
 /**
@@ -33,6 +34,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
   overflow-wrap: break-word;
+
 }
 
 
