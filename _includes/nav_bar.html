@@ -1,1 +1,5 @@
-<a href="/">{{ site.author.name }}</a>
+{% if site.github-pages %}
+    <a href="/Woof"><i class="fa-solid fa-arrow-left"></i></a>
+{% else %}
+    <a href="/"><i class="fa-solid fa-arrow-left"></i></a>
+{% endif %}
