@@ -2,7 +2,7 @@ html {
   font-size: $base-font-size;
 }
 
-@media (pointer: none) {
+@media (pointer: fine) {
 	html {
     overscroll-behavior-y: none;
   }
