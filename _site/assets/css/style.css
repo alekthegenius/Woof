@@ -139,7 +139,7 @@ body { font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe U
 
 .content-header .follow-button { position: sticky; top: 10px; }
 
-.nav-bar { padding-top: 10px; padding-bottom: 15px; position: sticky; top: 0px; backdrop-filter: blur(12px); }
+.nav-bar { padding-top: 10px; padding-bottom: 15px; position: sticky; top: 0px; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
 
 .nav-bar .nav-bar-title { margin-left: 40px; margin-top: -27.5px; font-weight: bold; font-size: larger; }
 
