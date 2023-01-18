@@ -1,6 +1,6 @@
 ---
 name: Layout Issue
-about: Create a report to help us improve the experience
+about: Describe an issue with the layout
 title: Layout Issue
 labels: bug
 assignees: alekthegenius
