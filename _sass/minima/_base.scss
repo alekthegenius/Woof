@@ -1,6 +1,11 @@
 html {
   font-size: $base-font-size;
-  overscroll-behavior-y: none;
+}
+
+@media (pointer: fine), (pointer: none) {
+	html {
+    overscroll-behavior-y: none;
+  }
 }
 
 /**
