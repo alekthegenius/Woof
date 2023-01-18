@@ -90,10 +90,13 @@ body {
   
 }
 
+.content-header {
+  
+}
+
 .content-header .follow-button{
   position: sticky;
   top: 10px;
-  
 }
 
 .nav-bar {
@@ -105,8 +108,10 @@ body {
 }
 
 .nav-bar .nav-bar-title {
-  margin-left: 25px;
-  margin-top: -25px;
+  margin-left: 40px;
+  margin-top: -27.5px;
+  font-weight: bold;
+  font-size: larger;
 }
 
 @media (prefers-color-scheme: light) {
@@ -405,6 +410,9 @@ body {
   .content {
     width: 70%;
   }
+  .content {
+    border-right: none;
+  }
 }
 @media screen and (max-width: 500px){ 
   .nav_column{
@@ -428,11 +436,6 @@ body {
 @media screen and (max-width: 400px){ 
   .content-header button {
     margin-left: 30%;
-  }
-}
-@media screen and (max-width: 750px){ 
-  .content {
-    border-right: none;
   }
 }
 

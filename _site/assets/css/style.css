@@ -141,7 +141,7 @@ body { font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe U
 
 .nav-bar { padding-top: 10px; padding-bottom: 15px; position: sticky; top: 0px; backdrop-filter: blur(12px); }
 
-.nav-bar .nav-bar-title { margin-left: 25px; margin-top: -25px; }
+.nav-bar .nav-bar-title { margin-left: 40px; margin-top: -27.5px; font-weight: bold; font-size: larger; }
 
 @media (prefers-color-scheme: light) { .nav_column i { color: #000000; } .button a:visited, a:after { color: #000000; } img.nav_icon { filter: invert(0%); -webkit-filter: invert(0%); } .back-button a:visited, a:after { color: #000000; } .button a:hover { background-color: rgba(0, 0, 0, 0.1); text-decoration: none; } .back-button a:hover { background-color: rgba(0, 0, 0, 0.05); text-decoration: none; } }
 
@@ -185,7 +185,7 @@ body { font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe U
 
 @media screen and (max-width: 1279px) { .nav_column { width: 75px; margin-left: 0px; margin-right: 5px; padding-left: 5px; } .content { width: 55%; margin-right: 0px; margin-left: 0px; } .navText { display: none; } .button { margin-left: 3px; } .button a { border-radius: 50%; } .about-me { width: 250px; } }
 
-@media screen and (max-width: 1000px) { .about-me { display: none; } .content { width: 70%; } }
+@media screen and (max-width: 1000px) { .about-me { display: none; } .content { width: 70%; } .content { border-right: none; } }
 
 @media screen and (max-width: 500px) { .nav_column { display: none; } .content { width: 90%; border: none; } }
 
@@ -194,8 +194,6 @@ body { font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe U
 @media screen and (max-width: 630px) { .content-header button { margin-left: 40%; } }
 
 @media screen and (max-width: 400px) { .content-header button { margin-left: 30%; } }
-
-@media screen and (max-width: 750px) { .content { border-right: none; } }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
