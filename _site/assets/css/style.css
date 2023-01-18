@@ -137,6 +137,8 @@ body { font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe U
 
 @media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference) { .nav_column i { color: #E3E6E7; } .button a:visited, a:after { color: #E3E6E7; } .button a { text-decoration: none; color: #E3E6E7; } img.nav_icon { filter: invert(100%); -webkit-filter: invert(100%); } .back-button a:visited, a:after { color: #E3E6E7; } .button a:hover { background-color: rgba(255, 255, 255, 0.1); text-decoration: none; } .back-button a:hover { background-color: rgba(255, 255, 255, 0.05); text-decoration: none; } }
 
+.nav-bar .nav-bar-title { margin-left: 450px; margin-top: -30px; }
+
 @media (prefers-color-scheme: light) { .nav_column i { color: #000000; } .button a:visited, a:after { color: #000000; } img.nav_icon { filter: invert(0%); -webkit-filter: invert(0%); } .back-button a:visited, a:after { color: #000000; } .button a:hover { background-color: rgba(0, 0, 0, 0.1); text-decoration: none; } .back-button a:hover { background-color: rgba(0, 0, 0, 0.05); text-decoration: none; } }
 
 .button a { text-decoration: none; border-radius: 20px; padding: 15px 15px 15px 15px; }
