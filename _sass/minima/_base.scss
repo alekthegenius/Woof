@@ -19,8 +19,6 @@ dl, dd, ol, ul, figure {
 
 }
 
-
-
 /**
  * Basic styling
  */
@@ -42,7 +40,11 @@ body {
 
 }
 
-
+.nav-bar button {
+  background: none;
+  border: none;
+  padding: 10.5px 13px 10.5px 13px;
+}
 
 // Column Styling
 .column {
@@ -73,7 +75,10 @@ body {
   .button a:visited, a:after{
     color: #E3E6E7;
   }
-
+  .nav-bar button:hover {
+    background-color: rgba($color: #ffffff, $alpha: 0.1);
+    border-radius: 50%;
+  }
   .button a{
     text-decoration: none;
     color: #E3E6E7;
@@ -106,6 +111,10 @@ body {
   top: 10px;
 }
 
+.nav-bar button a{
+  color: white;
+}
+
 .nav-bar {
   padding-top: 10px;
   padding-bottom: 15px;
@@ -117,7 +126,7 @@ body {
 
 .nav-bar .nav-bar-title {
   margin-left: 40px;
-  margin-top: -27.5px;
+  margin-top: -32px;
   font-weight: bold;
   font-size: larger;
 }
@@ -125,6 +134,10 @@ body {
 @media (prefers-color-scheme: light) {
   .nav_column i{
     color: #000000;
+  }
+  .nav-bar button:hover {
+    background-color: rgba($color: #000000, $alpha: 0.1);
+    border-radius: 50%;
   }
   .button a:visited, a:after{
     color: #000000;
@@ -216,7 +229,7 @@ body {
     border-top: 0px;
     border-bottom: 0px;
     border-style: solid;
-    padding-top: 15px;
+    //padding-top: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
@@ -249,7 +262,7 @@ body {
     border-top: 0px;
     border-bottom: 0px;
     border-style: solid;
-    padding-top: 15px;
+    //padding-top: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
     padding-left: 15px;

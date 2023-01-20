@@ -130,6 +130,8 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
 /** Basic styling */
 body { font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif; color: var(--minima-text-color); background-color: var(--minima-background-color); -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; flex-wrap: wrap; min-height: 100vh; flex-direction: column; overflow-wrap: break-word; }
 
+.nav-bar button { background: none; border: none; padding: 10.5px 13px 10.5px 13px; }
+
 .column { float: left; height: 100%; }
 
 /* Clear floats after the columns */
@@ -137,15 +139,17 @@ body { font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe U
 
 .nav_column { width: 15%; margin-left: 15%; margin-right: 10px; margin-top: 5px; position: sticky; top: 5px; }
 
-@media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference) { .nav_column i { color: #E3E6E7; } .button a:visited, a:after { color: #E3E6E7; } .button a { text-decoration: none; color: #E3E6E7; } img.nav_icon { filter: invert(100%); -webkit-filter: invert(100%); } .back-button a:visited, a:after { color: #E3E6E7; } .button a:hover { background-color: rgba(255, 255, 255, 0.1); text-decoration: none; } .back-button a:hover { background-color: rgba(255, 255, 255, 0.05); text-decoration: none; } }
+@media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference) { .nav_column i { color: #E3E6E7; } .button a:visited, a:after { color: #E3E6E7; } .nav-bar button:hover { background-color: rgba(255, 255, 255, 0.1); border-radius: 50%; } .button a { text-decoration: none; color: #E3E6E7; } img.nav_icon { filter: invert(100%); -webkit-filter: invert(100%); } .back-button a:visited, a:after { color: #E3E6E7; } .button a:hover { background-color: rgba(255, 255, 255, 0.1); text-decoration: none; } .back-button a:hover { background-color: rgba(255, 255, 255, 0.05); text-decoration: none; } }
 
 .content-header .follow-button { position: sticky; top: 10px; }
 
+.nav-bar button a { color: white; }
+
 .nav-bar { padding-top: 10px; padding-bottom: 15px; position: sticky; top: 0px; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
 
-.nav-bar .nav-bar-title { margin-left: 40px; margin-top: -27.5px; font-weight: bold; font-size: larger; }
+.nav-bar .nav-bar-title { margin-left: 40px; margin-top: -32px; font-weight: bold; font-size: larger; }
 
-@media (prefers-color-scheme: light) { .nav_column i { color: #000000; } .button a:visited, a:after { color: #000000; } img.nav_icon { filter: invert(0%); -webkit-filter: invert(0%); } .back-button a:visited, a:after { color: #000000; } .button a:hover { background-color: rgba(0, 0, 0, 0.1); text-decoration: none; } .back-button a:hover { background-color: rgba(0, 0, 0, 0.05); text-decoration: none; } }
+@media (prefers-color-scheme: light) { .nav_column i { color: #000000; } .nav-bar button:hover { background-color: rgba(0, 0, 0, 0.1); border-radius: 50%; } .button a:visited, a:after { color: #000000; } img.nav_icon { filter: invert(0%); -webkit-filter: invert(0%); } .back-button a:visited, a:after { color: #000000; } .button a:hover { background-color: rgba(0, 0, 0, 0.1); text-decoration: none; } .back-button a:hover { background-color: rgba(0, 0, 0, 0.05); text-decoration: none; } }
 
 .button a { text-decoration: none; border-radius: 20px; padding: 15px 15px 15px 15px; }
 
@@ -165,9 +169,9 @@ body { font: 400 16px/1.5 -apple-system, system-ui, BlinkMacSystemFont, "Segoe U
 
 .content-header button { margin-left: 52%; margin-top: 15px; padding-top: 7.5px; padding-right: 15px; padding-bottom: 7.5px; padding-left: 15px; border-radius: 15px; }
 
-@media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference) { .content { width: 550px; border-left: 1px #2f3336; border-right: 1px #2f3336; border-top: 0px; border-bottom: 0px; border-style: solid; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; } .nav-bar { background-color: rgba(0, 0, 0, 0.5); } .content-header button:hover { transition-duration: 0.5s; background-color: #aecfd2; border: #aecfd2; } .content-header button { border: #ffffff; background-color: #ffffff; } .content-header button span.follow_text { color: #000000; } .content-header img.profile-image { border: 5px solid black; } }
+@media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference) { .content { width: 550px; border-left: 1px #2f3336; border-right: 1px #2f3336; border-top: 0px; border-bottom: 0px; border-style: solid; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; } .nav-bar { background-color: rgba(0, 0, 0, 0.5); } .content-header button:hover { transition-duration: 0.5s; background-color: #aecfd2; border: #aecfd2; } .content-header button { border: #ffffff; background-color: #ffffff; } .content-header button span.follow_text { color: #000000; } .content-header img.profile-image { border: 5px solid black; } }
 
-@media (prefers-color-scheme: light) { .content { width: 550px; border-left: 1px #eff3f4; border-right: 1px #eff3f4; border-top: 0px; border-bottom: 0px; border-style: solid; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; } .nav-bar { background-color: rgba(255, 255, 255, 0.5); } .content-header button:hover { transition-duration: 0.5s; background-color: #292D2F; border: #292D2F; } .content-header button { border: #0e0e0e; background-color: #0e0e0e; } .content-header button span.follow_text { color: #ffffff; } .content-header img.profile-image { border: 5px solid white; } }
+@media (prefers-color-scheme: light) { .content { width: 550px; border-left: 1px #eff3f4; border-right: 1px #eff3f4; border-top: 0px; border-bottom: 0px; border-style: solid; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; } .nav-bar { background-color: rgba(255, 255, 255, 0.5); } .content-header button:hover { transition-duration: 0.5s; background-color: #292D2F; border: #292D2F; } .content-header button { border: #0e0e0e; background-color: #0e0e0e; } .content-header button span.follow_text { color: #ffffff; } .content-header img.profile-image { border: 5px solid white; } }
 
 .content-header { padding-left: 0px; }
 
