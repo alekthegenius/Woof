@@ -397,15 +397,22 @@ body {
 }
 // About Me Ends
 
-@media screen and (max-width: 2500px){ 
-  .nav_column {
-    margin-left: 35%;
-  }
+@media screen and (min-width: 2350px) {
+    .nav_column {
+        margin-left:35%
+    }
 }
 
-@media screen and (max-width: 2000px){ 
+@media screen and (max-width: 2350px) {
     .nav_column {
-	margin-left: 15%;
+        margin-left:25%
+    }
+}
+
+
+@media screen and (max-width: 1500px) {
+    .nav_column {
+        margin-left: 15%
     }
 }
 
