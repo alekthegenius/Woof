@@ -4,4 +4,4 @@
 
 ![Screenshot](/image.png)
 
-This is a fully responsive Jekyll theme dei=signed to mimic the Twitter interface
+This is a fully responsive Jekyll theme designed to mimic the Twitter interface
