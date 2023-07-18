@@ -111,11 +111,6 @@ body {
   
 }
 
-.content-header .follow-button{
-  position: sticky;
-  top: 10px;
-}
-
 .nav-bar button a{
   color: white;
 }
@@ -251,9 +246,6 @@ body {
     border: #ffffff;
     background-color: #ffffff;
   }
-  .content-header button span.follow_text {
-    color: #000000;
-  }
   .content-header img.profile-image {
     border: 5px solid black;
   }
@@ -283,9 +275,6 @@ body {
   .content-header button {
     border: #0e0e0e;
     background-color: #0e0e0e;
-  }
-  .content-header button span.follow_text {
-    color: #ffffff;
   }
   .content-header img.profile-image {
     border: 5px solid rgb(255, 255, 255);
